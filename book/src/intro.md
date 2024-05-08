@@ -1,15 +1,7 @@
-# Mix-in-Rust @ RustNL 2024: introduction
-
-## Who are we?
-
-<!-- Tamme started learning HTML early so he still uses tables for formatting 😈 -->
-| | |
-| --- | --- |
-| ![](https://tweedegolf.nl/images/screenshot-from-2024-03-01-15-47-57.png) |  **Henk** writes and teaches Rust, maintains [teach-rs](https://github.com/tweedegolf/teach-rs) |
-| ![](https://tweedegolf.nl/images/tamme400x400.jpg) | **Tamme** started his career with C, C++, CMake, Lua in a fun multi language project. |
+# Mix-in-Rust @ RustNL 2024
 
 
-## Motivation
+## Intro
 > ❓ Why do we need FFI? What do we gain from it?
 
 Imagine yourself in the following situation. You came across Rust a while ago and you like what you see. You've done some learning and hobby projects in Rust, got pretty good at it, and are wondering if you could somehow use Rust in the huge software project you're working on during your day job. After all, Rust's promises are hard to ignore: apart from Rust being [blazingly fast and memory-efficient, its type system and ownership model guarantee memory-safety and thread-safety](https://www.rust-lang.org/). Being a sane person, you understand that ['Rewrite it in Rust'](https://github.com/ansuz/RIIR) is no realistic answer. You'd like to [oxidize](https://wiki.mozilla.org/Oxidation) the code base: gradually introduce Rust in the application where possible. When you're setting up a new application, you'd like to use foreign dependencies from your Rust executable.
