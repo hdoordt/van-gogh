@@ -76,3 +76,4 @@ build/
 
 # Rust stuff
 rembrandt/target
+book/book
