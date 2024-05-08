@@ -36,7 +36,7 @@ set(PROJECT_SOURCES
         goghviewer.ui
         imageloader.cpp
         imageloader.h
-        # (PART 1) Comment out the next line to disable the C implementation of image_info!
+        # (PART 1) TODO: Comment out the next line to disable the C implementation of image_info!
         # image_info.c
         image_info.h
         ${TS_FILES}

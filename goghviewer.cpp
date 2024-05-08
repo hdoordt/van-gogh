@@ -86,10 +86,13 @@ void GoghViewer::on_btnToolGreyscale_clicked()
     }
 
     QImage image = pm.toImage();
+    auto imageWidth = image.width();
+    auto imageHeight = image.height();
+    auto imageSize = image.sizeInBytes();
 
     // The buffer of a QImage, like many things in Qt,
     // is reference counted. constBits returns a raw pointer
-    // into that shared data. Hold on to the openedImage for
+    // into that shared data. Hold on to the image for
     // as long as imageDataBuf lives for it not to become
     // dangling...
     //  https://doc.qt.io/qt-6/implicit-sharing.html

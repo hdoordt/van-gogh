@@ -31,7 +31,7 @@ sudo dnf install qt6-qttools-devel libpng-devel
 On **Ubuntu** or **Debian**:
 
 ```shell
-sudo apt install libpng-dev qt6-qttools-dev
+sudo apt install libpng-dev qt6-tools-dev qt6-tools-dev-tools qt6-l10n-tools libgl1-mesa-dev qt6-wayland qt6-wayland-dev qt6-wayland-dev-tools
 ```
 
 All right, now go ahead and open the project folder at the location you checked it out to in VS Code. After a few seconds, VS Code will ask you to install recommended extensions. Click 'yes'. This will install the extensions specified in `.vscode/extensions.json`. This installation may take a while.
